@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Daftar Anggota</string>
+    <string name="nama">Nama</string>
+    <string name="kelamin">Kelamin</string>
+    <string name="pria">Pria</string>
+    <string name="wanita">Wanita</string>
+    <string name="hobi">Hobi</string>
+    <string name="browsing">Browsing</string>
+    <string name="coding">Coding</string>
+    <string name="membaca">Membaca</string>
+    <string name="renang">Renang</string>
+    <string name="daftar">Daftar Anggota Baru</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+

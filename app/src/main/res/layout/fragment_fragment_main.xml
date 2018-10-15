@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/margin"
+    tools:context=".fragment_main">
+
+    <TextView
+        android:id="@+id/textview_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edittext_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textview_kelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/kelamin"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_kelamin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/kelamin_pria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/pria" />
+
+        <RadioButton
+            android:id="@+id/kelamin_wanita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wanita" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textview_hobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/hobi"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkbox_hobi_browsing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/browsing" />
+
+    <CheckBox
+        android:id="@+id/checkbox_hobi_coding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/coding" />
+
+    <CheckBox
+        android:id="@+id/checkbox_hobi_membaca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/membaca" />
+
+    <CheckBox
+        android:id="@+id/checkbox_hobi_renang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/renang" />
+
+    <Button
+        android:id="@+id/button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/daftar" />
+
+</LinearLayout>
